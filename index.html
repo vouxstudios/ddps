@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diamond Dance Pole Studio | Coming Soon</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 100vh;
+        background: linear-gradient(135deg, #1C1C1C 0%, #2A003F 100%);
+        font-family: 'Poppins', sans-serif;
+        color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .container {
+        max-width: 600px;
+        padding: 2rem;
+    }
+
+    .logo {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2.5rem;
+        letter-spacing: 2px;
+        margin-bottom: 1rem;
+        background: linear-gradient(90deg, #FF3399, #8A2BE2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h1 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: #FF3399;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        color: #ddd;
+    }
+
+    .email-form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    input[type="email"] {
+        padding: 0.8rem 1rem;
+        border: none;
+        border-radius: 4px;
+        width: 250px;
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 0.8rem 1.5rem;
+        border: none;
+        border-radius: 4px;
+        background-color: #8A2BE2;
+        color: white;
+        font-weight: 500;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #FF3399;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(255, 51, 153, 0.4);
+    }
+
+    .socials {
+        margin-top: 2rem;
+    }
+
+    .socials a {
+        margin: 0 10px;
+        color: #FF3399;
+        text-decoration: none;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .socials a:hover {
+        color: #8A2BE2;
+    }
+
+    /* Subtle glowing dots background */
+    body::before {
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(255,51,153,0.4) 0%, transparent 70%);
+        top: -100px;
+        left: -100px;
+        filter: blur(80px);
+    }
+
+    body::after {
+        content: "";
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        background: radial-gradient(circle, rgba(138,43,226,0.4) 0%, transparent 70%);
+        bottom: -100px;
+        right: -100px;
+        filter: blur(80px);
+    }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="logo">Diamond Dance Pole Studio</div>
+    <h1>Coming Soon</h1>
+    <p>Your new favorite sexy workout experience is launching soon.<br>
+    Get ready to spin, sweat & shine.</p>
+
+    <form class="email-form">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit">Notify Me</button>
+    </form>
+
+    <div class="socials">
+        <a href="https://instagram.com/diamonddancepolestudio">Instagram</a>
+        <a href="#">Facebook</a>
+    </div>
+</div>
+
+</body>
+</html>
